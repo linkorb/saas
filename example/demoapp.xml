@@ -1,0 +1,28 @@
+<product id="demoapp" title="Demo App"
+    url="http://www.demoapp.web"
+    description="This app's got swagger!">
+    
+    <config id="feature.cool.enabled" value="true" />
+    <config id="feature.yay.enabled" value="true" />
+    
+    <plan id="basic" amount="9.99" currency="EUR" interval="monthly" trialdays="14" name="Basic plan">
+        
+    </plan>
+    
+    <plan id="plus" title="Plus package" description="It's plusalicious">
+        <config id="feature.somethingcool.enabled" value="true" />
+    </plan>
+    
+    <plan id="ultimate">
+        <config id="feature.yay.enabled" value="true" />
+        <config id="feature.morestuff.enabled" value="true" />
+    </plan>
+
+    <addon id="baloons" per="user">
+        <config id="feature.baloons.enabled" value="true" />
+    </addon>
+    <addon id="extra" per="system">
+        <config id="feature.extras.enabled" value="true" />
+    </addon>
+    
+</product>

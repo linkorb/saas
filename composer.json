@@ -1,0 +1,25 @@
+{
+    "name": "linkorb/saas",
+    "description": "SAAS component",
+    "homepage": "http://www.github.com/linkorb/saas",
+    "keywords": ["saas", "pricing", "businessmodel", "features", "featureflag", "product"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "symfony/console": "2.5.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saas\\": "src/"
+        }
+    }
+}
